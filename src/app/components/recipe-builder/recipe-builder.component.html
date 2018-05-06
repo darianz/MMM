@@ -1,0 +1,29 @@
+<div>
+  <label>name of recipe:
+    <input [(ngModel)]="recipeName" placeholder="Recipe Name">
+  </label>
+  <h2>{{recipeName}}</h2>
+</div>
+
+<div>
+  <label>name of description:
+    <input [(ngModel)]="description" placeholder="description">
+  </label>
+  <h2>{{description}}</h2>
+</div>
+
+<div>
+  <label>name of conclusion:
+    <input [(ngModel)]="conculsion" placeholder="conculsion">
+  </label>
+  <h2>{{conculsion}}</h2>
+</div>
+
+<div>
+  <label>name of updateMessage:
+    <input [(ngModel)]="updateMessage" placeholder="updateMessage">
+  </label>
+  <h2>{{updateMessage}}</h2>
+</div>
+
+<input type="submit" (click)="newMessage()">
